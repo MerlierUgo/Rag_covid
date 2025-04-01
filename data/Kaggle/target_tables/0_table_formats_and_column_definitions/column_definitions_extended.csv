@@ -1,0 +1,59 @@
+Order,Format,Column Heading,Data Type,Best practice
+1,All,Date,Date,Type the date the study was published in M/D/YYYY format.
+2,All,Study,Excerpt,Copy-paste the title of the study.
+3,All,Study Link,URL,Link to the DOI of the study.
+4,All,Journal,Excerpt,Copy-paste the official name of the journal.
+5,All,Study Type,Categorical,Select from list: Study Type
+6,All,Added on,Date,Type the date the curator added the study in M/D/YYYY format.
+7,All,Added By,Email address,The email address of the person who added the study.
+8,Format 1,Addressed Population,Excerpt,Copy-paste a word/phrase identifying the population facing a challenge.
+9,Format 1,Challenge,Excerpt,Copy-paste a word/phrase identifying the challenge the addressed population is facing.
+10,Format 1,Solution,Excerpt,Copy-paste a piece of text that states a solution to the challenge and whether or not the study findings support the solution.
+11,Format 1,Measure of Evidence,Parameter: value,"Type a parameter and value (text, numeric, date, range, etc.) that reflects how valid or generalizable the study is. For example,  shelters: 10"
+12,Format 2,Factors,Excerpt,"Copy-paste a factor (independent variable) tested in the study, such as a specific intervention, predictor or disease vector. Create one row per factor or factor-combination tested."
+13,Format 2,Influential,Binary (Y/N),"If the study found evidence that the factor influences an outcome related to the RQ, enter Y. If there was no relationship, or the text states that the relationship was not significant, enter N."
+14,Format 2,Excerpt,Excerpt,Copy-paste a piece of text that states whether the factor influences the outcome.
+15,Format 2,Measure of Evidence,Parameter: value,"Type a parameter and value (text, numeric, date, range, etc.) that reflects how valid or generalizable the study is. For example, countries: China; provinces: 26"
+16,Format 3,Sample Size,Parameter: value,"Indicate the number of patients (patients: n) included in the analysis related to the RQ, which may be a sub-cohort. If the study is a meta-analysis/review, also indicate the number of studies included in the meta-analysis/review (studies: n)."
+17,Format 3,Age,Parameter: value,"All parameters (mean, median, iqr, range) for the age of the patients used to answer the RQ. If a sub-cohort is used and the age of the sub-cohort is not given, report the age of the entire cohort."
+18,Format 3,Sample obtained,Categorical,"Select specimen(s) from list: Sample Obtained. If nothing on the list adequately describes the specimen, add a new entry to the list maintained in the curator workspace."
+19,Format 3,Characteristic Related to Question 1,Table-specific,"This column's name and data type is decided by the curator on an individual table level. The data type should be the same for the whole column and should be numerical, categorical (multiple-choice), excerpt, date, or parameter: value."
+20,Format 3,Characteristic Related to Question 2,Table-specific,"This column's name and data type is decided by the curator on an individual table level. The data type should be the same for the whole column and should be numerical, categorical (multiple-choice), excerpt, date, or parameter: value."
+21,Format 3,Excerpt,Excerpt,Copy-paste a piece of text that states the study's finding related to the RQ.
+22,Format 4,Method,Excerpt,Copy-paste the name of the method or modeling technique that generated the study finding related to the RQ.
+23,Format 4,Result,Excerpt,Copy-paste a piece of text that states the study's finding related to the RQ.
+24,Format 4,Measure of Evidence,Parameter: value,"Type a parameter and value (text, numeric, date, range, etc.) that reflects how valid or generalizable the study is. For example,  detection: ELISA, RT-qPCR"
+25,Format 5,Material,Excerpt,Copy-paste the material whose properties are described in the study. Create one row per material.
+26,Format 5,Method,Excerpt,Copy-paste the name of the method that generated the study finding related to the RQ.
+27,Format 5,Property 1,Table-specific,"This column's name and data type is decided by the curator on an individual table level. The data type should be the same for the whole column and should be numerical, categorical (multiple-choice), excerpt, date, or parameter: value."
+28,Format 5,Property 2,Table-specific,"This column's name and data type is decided by the curator on an individual table level. The data type should be the same for the whole column and should be numerical, categorical (multiple-choice), excerpt, date, or parameter: value."
+29,Format 5,Conclusion,Excerpt,Copy-paste a piece of text that states the study's finding related to the RQ.
+30,Format 5,Measure of Evidence,Parameter: value,"Type a parameter and value (text, numeric, date, range, etc.) that reflects how valid or generalizable the study is. For example,  patients: 100"
+31,Format 6,Detection Method,Excerpt,Copy-paste the name of the method the study evaluates. Create one row per method.
+32,Format 6,Sample Size,Parameter: value,"Indicate the number of test samples (samples: n) used to evaluate the detection method. If the study is a meta-analysis/review, also indicate the number of studies included in the meta-analysis/review (studies: n)."
+33,Format 6,Measure of Testing Accuracy,Parameter: value,"All parameters (sensitivity, specificity, etc.) that reflect the accuracy of the test."
+34,Format 6,Speed of assay,Excerpt,"Copy-paste a piece of text indicating how long the method takes, in whatever way the study reports this."
+35,Format 6,FDA approval,Binary (Y/N),"If the method is FDA-approved, enter Y. Otherwise, enter N."
+36,Format 7,Therapeutic method(s) utilized/assessed,Excerpt,Copy-paste a piece of text that states the therapeutic method. Create one row per method or method-combination.
+37,Format 7,Sample Size,Parameter: value,"Indicate the number of patients (patients: n) used to assess the therapeutic method. If needed for clarity, use more parameters to stratify by treatment vs. control group or other details. If the study is a meta-analysis/review, also indicate the number of studies (studies: n)."
+38,Format 7,Severity of Disease,Categorical,Select the severity of patients' COVID-19 illness from list: Severity of Disease. Uses the definitions used in the study and only report when these words are used in the study. 
+39,Format 7,General Outcome/Conclusion Excerpt,Excerpt,Copy-paste a piece of text that states the study's finding related to the RQ.
+40,Format 7,Primary Endpoint(s) of Study,Excerpt,Copy-paste a word/phrase identifying the primary measurement of outcome.
+41,Format 7,Clinical Improvement (Y/N),Binary (Y/N),"If the therapy was associated with clinical improvement, enter Y. If not, or if the text states that the effect was not significant, enter N."
+42,Format 8,Severity of Disease,Categorical,Select the severity of patients' COVID-19 illness from list: Severity of Disease. Uses the definitions used in the study and only report when these words are used in the study. 
+43,Format 8,Severity lower bound,Numerical,"If the outcome being measured is risk of severe clinical symptoms of COVID-19, then use these columns to report the risk ratio, odds ratio, or hazard ratio, or adjusted risk ratio, adjusted odds ratio, or adjusted hazard ratio (RR, OR, HR, ARR, AOR, AHR) and its 95% confidence interval, and the p-value for the t-test that the value is not equal to 1.0 (i.e., the no effect level). Definitions of severe COVID-19 vary, and more than one definition may be acceptable. There is a separate column for recording the definition given for severity of clinical outcomes. Sometimes that definition includes a composite endpoint (e.g., mechanical ventilation OR death). This is still considered a measure of severity for our purposes. Only if the outcome is strictly survivors vs. non-survivors does this data go under the ‘Fatality’ / ‘Fatality lower bound’ / ‘Fatality upper bound’ / ‘Fatality p-value’ instead. If the comparison between survivors and non-survivors excludes those still hospitalized at the end of the follow-up interval, then the ‘Severe definition’ column should read ‘death vs. discharged’ rather than ‘survivors vs. non-survivors’. For the purposes of presenting our results to the public, we differentiate between two types of ‘Severe definition’ - ‘critical only’ and everything else. ‘Critical only’ means ICU admission, mechanical ventilation, multiple organ failure, or ARDS. Any definition that is broader than this (e.g., the classic definition of pneumonia severity) falls in the other category."
+44,Format 8,Severity upper bound,,
+45,Format 8,Severity p-value,,
+46,Format 8,Severe significance,,
+47,Format 8,Severe adjusted,,
+48,Format 8,Hand-calculated Severe,,
+49,Format 8,Fatality,,
+50,Format 8,Fatality lower bound,,
+51,Format 8,Fatality upper bound,,
+52,Format 8,Fatality p-value,,
+53,Format 8,Fatality significance,,
+54,Format 8,Fatality adjusted,,
+55,Format 8,Hand-calculated Fatality,,
+56,Format 8,Multivariate adjustment,Excerpt,"If the risk ratio or odds ratio or hazard ratio is adjusted for confounding, list the confounders here by copy-pasting from the text. For instance, in a multivariate logistic regression model for death vs. discharge including the predictors COPD, heart disease, gender and age, the ‘multivariate adjustment’ variables listed for the AOR for COPD would be heart disease, gender and age."
+57,Format 8,Sample size,Parameter: value,"Indicate the number of patients (patients: n) used in the analysis related to the RQ.  If the study is a meta-analysis/review,  also indicate the number of studies included in the meta-analysis/review (studies: n)."
+58,Format 8,Study population,Excerpt,Copy-paste a word or phrase that names the population being studied.
