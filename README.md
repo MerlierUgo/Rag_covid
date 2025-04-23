@@ -1,16 +1,14 @@
 
-
-
 # COVID-19 Open Research Dataset Challenge
-
+ 
 
 ![Exemple de sortie](./assets/front.png)
 
 
 ## Introduction
+
 <p align="justify">
 ors de ce rapport, nous allons passer en revue notre deuxième projet d’IA dans le cadre de notre dernière année d’école d’ingénieur à Cy-Tech, option Intelligence Artificielle. Ce projet est à choisir parmi les challenges Kaggle disponibles sur Internet. Durant le premier projet, nous avions décidé de travailler sur les GAN, un type de modèle génératif que nous n’avions pas encore étudié. Aujourd’hui, nous avons choisi comme second projet la création d’un RAG (Retrieval-Augmented Generation), une compétence de plus en plus demandée dans le monde de l’entreprise.
-
 </p>
 
 
@@ -25,7 +23,7 @@ Le challenge Kaggle nous offre les données nécessaires pour la création du RA
 </p>
 
 <p align="center">
-  Les distribution de la gravit´e de l’ˆage sur la maladie et de la p-value
+  Figure 1 : Les distribution de la gravit´e de l’ˆage sur la maladie et de la p-value
 </p>
 <br>
 
@@ -65,7 +63,7 @@ Voici quelques exemples de prompts représentant quelqu’un d’inquiet sur sa 
 </p>
 
 <p align="center">
-  Exemple de prompt
+  Figure 2 : Exemple de prompt
 </p>
 <br>
 
