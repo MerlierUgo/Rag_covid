@@ -1,6 +1,4 @@
 
-
-
 # COVID-19 Open Research Dataset Challenge
  
 
@@ -8,9 +6,9 @@
 
 
 ## Introduction
+
 <p align="justify">
 ors de ce rapport, nous allons passer en revue notre deuxième projet d’IA dans le cadre de notre dernière année d’école d’ingénieur à Cy-Tech, option Intelligence Artificielle. Ce projet est à choisir parmi les challenges Kaggle disponibles sur Internet. Durant le premier projet, nous avions décidé de travailler sur les GAN, un type de modèle génératif que nous n’avions pas encore étudié. Aujourd’hui, nous avons choisi comme second projet la création d’un RAG (Retrieval-Augmented Generation), une compétence de plus en plus demandée dans le monde de l’entreprise.
-
 </p>
 
 
