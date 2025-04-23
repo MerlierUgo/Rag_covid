@@ -23,7 +23,7 @@ Le challenge Kaggle nous offre les données nécessaires pour la création du RA
 </p>
 
 <p align="center">
-  Les distribution de la gravit´e de l’ˆage sur la maladie et de la p-value
+  Figure 1 : Les distribution de la gravit´e de l’ˆage sur la maladie et de la p-value
 </p>
 <br>
 
@@ -63,7 +63,7 @@ Voici quelques exemples de prompts représentant quelqu’un d’inquiet sur sa 
 </p>
 
 <p align="center">
-  Exemple de prompt
+  Figure 2 : Exemple de prompt
 </p>
 <br>
 
