@@ -3,11 +3,12 @@
  
 
 ![Exemple de sortie](./assets/front.png)
-<p align="justify">
+
+<p align="center">
 Notes : Le README ne contient pas la totalité des informations, veuillez regarder le rapport dans la section "Documents" pour avoir plus d'inforamtions.
 </p>
-## Introduction
 
+## Introduction
 <p align="justify">
 ors de ce rapport, nous allons passer en revue notre deuxième projet d’IA dans le cadre de notre dernière année d’école d’ingénieur à Cy-Tech, option Intelligence Artificielle. Ce projet est à choisir parmi les challenges Kaggle disponibles sur Internet. Durant le premier projet, nous avions décidé de travailler sur les GAN, un type de modèle génératif que nous n’avions pas encore étudié. Aujourd’hui, nous avons choisi comme second projet la création d’un RAG (Retrieval-Augmented Generation), une compétence de plus en plus demandée dans le monde de l’entreprise.
 </p>
