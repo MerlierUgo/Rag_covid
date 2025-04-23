@@ -3,8 +3,9 @@
  
 
 ![Exemple de sortie](./assets/front.png)
-
-
+<p align="justify">
+Notes : Le README ne contient pas la totalité des informations, veuillez regarder le rapport dans la section "Documents" pour avoir plus d'inforamtions.
+</p>
 ## Introduction
 
 <p align="justify">
