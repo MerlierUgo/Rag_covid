@@ -1,9 +1,9 @@
 
 # COVID-19 Open Research Dataset Challenge
  
-
+<p align="center">
 ![Exemple de sortie](./assets/front.png)
-
+</p>
 <p align="center">
 Notes : Le README ne contient pas la totalité des informations, veuillez regarder le rapport dans la section "Documents" pour avoir plus d'inforamtions.
 </p>
